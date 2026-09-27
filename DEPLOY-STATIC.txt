@@ -1,0 +1,14 @@
+STATIC WEBSITE DEPLOYMENT (NO VITE NEEDED)
+
+This is a plain HTML site. It has no npm packages and requires no build step.
+
+If deploying on Vercel:
+1. Extract the ZIP and upload the folder with index.html at its root.
+2. In Project Settings > Build and Deployment, select Framework Preset: Other.
+3. Clear/disable the Build Command (do not run `vite build`).
+4. Set Output Directory to `.` if the form requires a value.
+5. Redeploy.
+
+For GitHub Pages, upload index.html to the repository root, then enable Pages for the main branch and root folder. For Netlify Drop, drag the extracted folder containing index.html.
+
+Password gate word: MAKEAWISH. This is a fun client-side gate, not secure authentication.
